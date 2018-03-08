@@ -24,19 +24,15 @@ function startGame() {
 
         // adds class to image
         blueCrystal.addClass("crystal-image");
-        // greenCrystal.addClass("crystal-image");
 
         // adds src and link to image
         blueCrystal.attr("src", "assets/images/blue.png", );
-        // greenCrystal.attr("src", "assets/images/green.png", );
 
         // adds data attribute to image and 
         blueCrystal.attr("data-crystalvalue", randomIncrement);
-        // greenCrystal.attr("data-cryatalvalue", incrementOptions[i]);
 
         // adds crystal to the page
         crystals.append(blueCrystal);
-        // crystals.append(greenCrystal);
     }
 }
 
