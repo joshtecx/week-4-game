@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Crystal Collector</title>
 </head>
@@ -15,16 +15,28 @@
     </header>
     
     <div class="container">
-        <h2>GOAL: <span id="goal"></span></h2>
+        <div class="stats">
+            <div class="goal-display">
+                <h2>GOAL: <span id="goal"></span></h2>
+            </div>
 
-        <h3>WINS: <Span id="wins"></Span></h3>
+            <div class="wins-display">
+                <h2>WINS: <Span id="wins"></Span></h2>
+            </div>
 
-        <h3>LOSSES: <Span id="losses"></Span></h3>
+            <div class="losses-display">
+                <h2>LOSSES: <Span id="losses"></Span></h2>
+            </div>
+        </div>
+
         <div id="crystals">
 
         </div>
     </div>
 
+    <footer>
+        &#169; Copyright 2018 Josh Tec
+    </footer>
     <script src="assets/javascript/game.js"></script>
 </body>
 </html>

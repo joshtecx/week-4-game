@@ -1,0 +1,61 @@
+body {
+    background: #D9CAB3;
+}
+
+header {
+    background: #654C4F;
+    color: azure;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    border-bottom: solid 3px  #C0CAAD;
+}
+
+footer {
+    background: #BC8034;
+    color: azure;
+    font-size: 12px;
+    padding: 30px;
+    text-align: center;
+    border-top: solid 3px #C0CAAD;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.stats {
+    color: azure;
+    background: #BA9593;
+    font-size: 20px;
+    padding: 30px;    
+    border-bottom: solid 3px  #C0CAAD;
+    text-align: center;
+}
+
+.goal-display,
+.wins-display,
+.losses-display {
+    float: left;
+    
+}
+
+.goal-display,
+.wins-display {
+    margin-right: 20%;
+}
+
+.goal-display{
+    margin-left: 18%;
+}
+
+.crystal-image {
+    margin: 5px;
+}
+
+#crystals {
+    padding: 30px;
+    text-align: center;
+    /* overflow: auto;
+    clear: both; */
+}
+
