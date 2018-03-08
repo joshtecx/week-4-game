@@ -20,7 +20,6 @@ function startGame() {
         console.log(randomIncrement);
 
         var blueCrystal = $("<img>");
-        // var greenCrystal = $("<img>");
 
         // adds class to image
         blueCrystal.addClass("crystal-image");
