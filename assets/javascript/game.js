@@ -1,6 +1,6 @@
-// Randomly generated target number
-var targetNum;
 
+// Global Variables
+var targetNum;
 var wins = 0;
 var losses = 0;
 var crystals = $("#crystals");
@@ -9,16 +9,18 @@ var counter = 0;
 function startGame() {
 
     $("#crystals").empty();
-
+    // Randomly generated target number
     targetNum = Math.floor(Math.random() * 101) + 19;
     console.log(targetNum);
     $("#goal").text(targetNum);
    
     for (var i = 0; i < 4; i++) {
 
+        // pulls a random num betweet 1 & 12 to assign to crystal
         var randomIncrement = [Math.floor(Math.random() * 11) + 1];
         console.log(randomIncrement);
 
+        // creates image tag
         var blueCrystal = $("<img>");
 
         // adds class to image
@@ -37,6 +39,7 @@ function startGame() {
 
 startGame();
 
+//Listens to any click events occuring on the DOM 
 $(document).on("click", ".crystal-image", function() {
     // grabs whatever value is stored within the data-crystalvalue attribute
     var crystalValue  = ($(this).attr("data-crystalvalue"));

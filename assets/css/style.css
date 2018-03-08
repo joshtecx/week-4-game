@@ -9,6 +9,7 @@ header {
     padding: 30px;
     font-size: 30px;
     border-bottom: solid 3px  #C0CAAD;
+    text-shadow: 2px 2px 2px #C0CAAD;
 }
 
 footer {
@@ -49,13 +50,18 @@ footer {
 }
 
 .crystal-image {
-    margin: 5px;
+    margin: 10px;
+    box-shadow: 4px 4px #C0CAAD;
+    
+}
+
+.crystal-image:hover {
+    box-shadow: 6px 6px 6px grey;
+    transition: box-shadow 2s;
 }
 
 #crystals {
     padding: 30px;
     text-align: center;
-    /* overflow: auto;
-    clear: both; */
 }
 
