@@ -27,7 +27,7 @@ function startGame() {
         blueCrystal.addClass("crystal-image");
 
         // adds src and link to image
-        blueCrystal.attr("src", "assets/images/blue.png", );
+        blueCrystal.attr("src", "assets/images/blue.png");
 
         // adds data attribute to image and 
         blueCrystal.attr("data-crystalvalue", randomIncrement);
